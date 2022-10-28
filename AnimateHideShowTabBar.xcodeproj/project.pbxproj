@@ -13,6 +13,7 @@
 		BA144676290ADD6400DE574E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA144674290ADD6400DE574E /* Main.storyboard */; };
 		BA144678290ADD6700DE574E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA144677290ADD6700DE574E /* Assets.xcassets */; };
 		BA14467B290ADD6700DE574E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA144679290ADD6700DE574E /* LaunchScreen.storyboard */; };
+		BA144683290ADE4300DE574E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA144682290ADE4300DE574E /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA144677290ADD6700DE574E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA14467A290ADD6700DE574E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA14467C290ADD6700DE574E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA144682290ADE4300DE574E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		BA14466D290ADD6400DE574E /* AnimateHideShowTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				BA144682290ADE4300DE574E /* MainTabBarController.swift */,
+				BA144672290ADD6400DE574E /* ViewController.swift */,
 				BA14466E290ADD6400DE574E /* AppDelegate.swift */,
 				BA144670290ADD6400DE574E /* SceneDelegate.swift */,
-				BA144672290ADD6400DE574E /* ViewController.swift */,
 				BA144674290ADD6400DE574E /* Main.storyboard */,
 				BA144677290ADD6700DE574E /* Assets.xcassets */,
 				BA144679290ADD6700DE574E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				BA144673290ADD6400DE574E /* ViewController.swift in Sources */,
 				BA14466F290ADD6400DE574E /* AppDelegate.swift in Sources */,
+				BA144683290ADE4300DE574E /* MainTabBarController.swift in Sources */,
 				BA144671290ADD6400DE574E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
