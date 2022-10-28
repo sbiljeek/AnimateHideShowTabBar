@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .systemTeal //.secondarySystemBackground
+        self.view.backgroundColor = .systemTeal
         
         let hideShowButton: UIButton = {
             let button = UIButton()
